@@ -33,29 +33,27 @@ git clone https://github.com/<yourusername>/covid-etl-dashboard.git
 cd covid-etl-dashboard
 
 
-## Installation
+2. Install dependencies
 
-1. Install dependencies
-```bash
 pip install -r requirements.txt
 
-2. Set up PostgreSQL
+
+3. Set up PostgreSQL
 
 Create a database named covid_data.
 
 Update database credentials in the .env file or configuration.
 
-3. Run the ETL pipeline
+4. Run the ETL pipeline
 
 python etl_pipeline.py
 
 
-4. Run the Streamlit dashboard
+5. Run the Streamlit dashboard
 
 streamlit run dashboard.py
 
-## Project Structure
-
+Project Structure
 covid-etl-dashboard/
 │
 ├── etl_pipeline.py        # ETL pipeline script
@@ -64,3 +62,10 @@ covid-etl-dashboard/
 ├── README.md              # Project documentation
 └── data/                  # Optional folder for sample data
 
+Usage
+
+Open the Streamlit dashboard in your browser after running dashboard.py.
+
+Explore daily COVID-19 cases, recoveries, and trends.
+
+Dashboard updates automatically with each ETL pipeline run.
