@@ -35,22 +35,22 @@ cd covid-etl-dashboard
 
 ## Installation
 
-1. **Install dependencies**
+1. Install dependencies
 ```bash
 pip install -r requirements.txt
 
-2. **Set up PostgreSQL**
+2. Set up PostgreSQL
 
 Create a database named covid_data.
 
 Update database credentials in the .env file or configuration.
 
-3. **Run the ETL pipeline**
+3. Run the ETL pipeline
 
 python etl_pipeline.py
 
 
-4. **Run the Streamlit dashboard**
+4. Run the Streamlit dashboard
 
 streamlit run dashboard.py
 
